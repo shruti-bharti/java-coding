@@ -1,0 +1,17 @@
+package p2;
+public class Addition
+{
+int a = 10,b = 20;
+
+public void add()
+{
+int r = a+b;
+System.Out.Println(r);
+}
+
+public static void main()
+{
+Addition a = new Addition();
+a.add()
+}
+}
